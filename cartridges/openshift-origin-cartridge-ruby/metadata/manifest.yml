@@ -25,10 +25,10 @@ Cart-Data:
     Description: "Application root directory where application files reside. This directory is reset every time you do a git-push"
   - Key: OPENSHIFT_RUBY_PORT
     Type: environment
-    Description: "Internal port to which the web-framework binds to."
+    Description: "Internal port for the web-framework."
   - Key: OPENSHIFT_RUBY_IP
     Type: environment
-    Description: "Internal IP to which the web-framework binds to."
+    Description: "Internal IP address for the web-framework."
   - Key: OPENSHIFT_APP_DNS
     Type: environment
     Description: "Fully qualified domain name for the application."
